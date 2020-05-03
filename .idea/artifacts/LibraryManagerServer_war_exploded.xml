@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="LibraryManagerServer:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="LibraryManagerServer/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LibraryManagerServer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="fastjson" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/fastjson.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.0.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.18.jar" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.18" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.6.jar" />
+          <element id="library" level="project" name="commons-io-2.6" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.4.jar" />
+          <element id="library" level="project" name="commons-fileupload-1.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
