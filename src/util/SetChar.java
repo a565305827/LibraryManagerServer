@@ -20,9 +20,9 @@ public class SetChar extends HttpServlet implements Filter {
 			  ((HttpServletResponse) response).setHeader("Pragma", "No-cache");
 			  ((HttpServletResponse) response).setHeader("Cache-Control", "no-cache");
 			  ((HttpServletResponse) response).setHeader("Expires", "0");
-			//request.setCharacterEncoding("UTF-8");
-			response.setCharacterEncoding("UTF-8");
-			request.setCharacterEncoding("UTF-8");
+			request.setCharacterEncoding("utf8");
+			response.setCharacterEncoding("utf8");
+			request.setCharacterEncoding("utf8");
 			filterChain.doFilter(request, response);
 		} catch (ServletException sx) {
 			filterConfig.getServletContext().log(sx.getMessage());

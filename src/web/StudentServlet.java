@@ -22,8 +22,8 @@ public class StudentServlet extends BaseServlet {
 
     public String addStudent(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        Map<String, String[]> parameterMap = request.getParameterMap();
-        String tempType = parameterMap.get("type")[0];
+        Map<String, String> parameterMap = getRequestParamsMap(request);
+        String tempType = parameterMap.get("type");
         int type = tempType == null ? 0 : Integer.parseInt(tempType);
         System.out.println(parameterMap);
         //把参数封装对象
@@ -103,6 +103,32 @@ public class StudentServlet extends BaseServlet {
                 responseEntity.hasShowSize = (Integer.parseInt(page) - 1) * Integer.parseInt(pageSize);
                 responseEntity.totalSize = studentService.getStudentCount();
                 //直接复制集合就是一个数组
+                responseEntity.data = allBooks;
+                result(request, response, responseEntity);
+            } else if (type == Constant.TYPE_JSP){
+
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    // 获取所有的学生
+    public String lookStudent(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        Map<String, String> parameterMap = getRequestParamsMap(request);
+        String content = String.valueOf(parameterMap.get("content"));
+        int type = Integer.parseInt(request.getParameter("type"));
+        // 1.调用服务层
+        StudentService studentService = new StudentService();
+        try {
+            List<Student> allBooks = studentService.lookStudent(content);
+            if (type == Constant.TYPE_JSON) {
+                ResponseEntity responseEntity = new ResponseEntity();
+                responseEntity.code = "1";
+                responseEntity.msg = "访问成功";
                 responseEntity.data = allBooks;
                 result(request, response, responseEntity);
             } else if (type == Constant.TYPE_JSP){

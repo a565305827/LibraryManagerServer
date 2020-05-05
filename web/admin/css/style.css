@@ -67,9 +67,9 @@ table {
 
 /* ------- Disable background and border for input fields ------- */
 #modal_content  input{
-    FONT-SIZE: 12px;
-    border-style:solid;
-    border-width:0.5px;
+    float: right;
+    height: 30px;
+    width: 200px;
 }
 
 /* --------------------------------------------------------------- */
@@ -290,7 +290,8 @@ input[type="checkbox"]:not(:checked):hover + label, input[type="checkbox"]:not(:
 
 #input_search_btn {
     float: left;
-    margin-left: 9px;
+    margin-left: 12px;
+    margin-bottom: 10px;
 }
 
 .goods_list {
@@ -471,13 +472,23 @@ input[type="checkbox"]:not(:checked):hover + label, input[type="checkbox"]:not(:
 }
 
 #modal_content {
-    padding: 30px 20px;
-    width: 400px;
-    height: 300px;
+    padding: 20px 30px 15px;
     background: white;
     position: fixed;
     left: 50%;
-    top: 50%;
+    top: 25%;
+    margin-left: -200px;
+    margin-top: -100px;
+    display: none;
+}
+
+#image_icon {
+    padding: 20px 30px 15px;
+    background: white;
+    border-radius: revert;
+    position: fixed;
+    left: 50%;
+    top: 25%;
     margin-left: -200px;
     margin-top: -100px;
     display: none;

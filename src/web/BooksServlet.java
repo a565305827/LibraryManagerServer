@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.security.spec.EncodedKeySpec;
 import java.sql.SQLException;
 import java.util.Collections;
 import java.util.List;
@@ -21,12 +22,50 @@ import java.util.Map;
 @WebServlet("/BooksLibrary")
 public class BooksServlet extends BaseServlet {
 
+	public String lookBook(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		//获取所有参数
+		Map<String, String> parameterMap = getRequestParamsMap(request);
+		String tempType = String.valueOf(parameterMap.get("type"));
+		String content = String.valueOf(parameterMap.get("content"));
+		int type = tempType == null ? 0 : Integer.parseInt(tempType);
+		try {
+			BookLibraryService goodsService = new BookLibraryService();
+			ResponseEntity responseEntity = new ResponseEntity();
+			List<BookInfo> allBooks = goodsService.lookBook(content);
+			if (type == Constant.TYPE_JSON) {
+				if (allBooks.size() > 0) {
+					responseEntity.code = "1";
+					responseEntity.msg = "访问成功";
+					responseEntity.data = allBooks;
+				} else {
+					responseEntity.code = "0";
+					responseEntity.msg = "访问失败";
+					responseEntity.data = allBooks;
+				}
+				result(request, response, responseEntity);
+			} else if (type == Constant.TYPE_JSP) {
+				request.setAttribute("allBooks", allBooks);
+				return "admin/main.jsp";
+			}
+		}  catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
 	//添加书  方式post
 	public String addBook(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		//获取所有参数
-		Map<String, String[]> parameterMap = request.getParameterMap();
-		String tempType = request.getParameter("type");
+		Map<String, String> parameterMap = getRequestParamsMap(request);
+		if (parameterMap.isEmpty()) {
+			parameterMap = getRequestAttributeMap(request);
+		}
+
+		System.out.println("content----" + request.getAttribute("content"));
+
+		String tempType = parameterMap.get("type");
 		int type = tempType == null ? 0 : Integer.parseInt(tempType);
 		//把参数封装对象
 		BookInfo bookInfo = new BookInfo();
@@ -77,7 +116,7 @@ public class BooksServlet extends BaseServlet {
 				}
 				result(request, response, responseEntity);
 			} else {
-				return "admin/main.jsp";
+				return "admin/main.jsp?code=1";
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -86,7 +125,7 @@ public class BooksServlet extends BaseServlet {
 		return null;
 	}
 
-	// 获取所有的商品
+	// 获取所有
 	public String getListBooks(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		//获取参数

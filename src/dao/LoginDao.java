@@ -17,7 +17,7 @@ public class LoginDao {
 		
 		//到数据库当中查询
 		//2.查询
-		String sql ="select * from tb_student where name=? and pwd=? and utype=?";
+		String sql ="select * from tb_student where tel=? and pwd=? and utype=?";
 		//3.执行查询
 		Student admin = null;
 		admin = qr.query(sql, new BeanHandler<Student>(Student.class),name,pwd,utype);

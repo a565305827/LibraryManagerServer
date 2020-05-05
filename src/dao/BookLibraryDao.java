@@ -16,7 +16,7 @@ public class BookLibraryDao {
     public List<BookInfo> getAllBooks(String page, String pageSize) throws SQLException {
 
         //1.查询操作
-        String sql = "select * from tb_bookinfo LIMIT ?,?";
+        String sql = "select * from tb_bookinfo ORDER BY bookid DESC LIMIT ?,?";
         //2执行sql
         List<BookInfo> allbooks = null;
         allbooks = qr.query(sql, new BeanListHandler<BookInfo>(BookInfo.class), (Integer.parseInt(page) - 1) * Integer.parseInt(pageSize), Integer.parseInt(pageSize));
@@ -26,8 +26,11 @@ public class BookLibraryDao {
     //2.添加一本书到数据库当中
     public boolean addBook(BookInfo bookInfo) throws SQLException {
         String sql = "\n" +
-                "INSERT INTO tb_bookinfo(bookname, price, inTime, author, barcode, operator, press, bookcase, booknum) VALUES(?, ?, NOW(), ?,  RAND()*1000, ?, ?, ?, ?);";
-        int update = qr.update(sql, bookInfo.getBookname(), bookInfo.getPrice(), bookInfo.getAuthor(), bookInfo.getOperator(), bookInfo.getPress(), bookInfo.getBookcase(), bookInfo.getBooknum());
+                "INSERT INTO tb_bookinfo(" +
+                "bookname, price, inTime, author, barcode, operator, press, " +
+                "bookcase, booknum, content, imageurl) " +
+                "VALUES(?, ?, NOW(), ?,  RAND()*1000, ?, ?, ?, ?, ?, ?);";
+        int update = qr.update(sql, bookInfo.getBookname(), bookInfo.getPrice(), bookInfo.getAuthor(), bookInfo.getOperator(), bookInfo.getPress(), bookInfo.getBookcase(), bookInfo.getBooknum(), bookInfo.getContent(), bookInfo.getImageurl());
         if (update == 1) {
             return true;
         }
@@ -52,5 +55,14 @@ public class BookLibraryDao {
         List<BookInfo> allbooks = null;
         allbooks = qr.query(sql, new BeanListHandler<BookInfo>(BookInfo.class));
         return "" + allbooks.size();
+    }
+
+    public List<BookInfo> lookBook(String content) throws SQLException {
+        //删除操作
+        String sql = "select * from tb_bookinfo where bookname LIKE '%"+ content +"%';";
+        System.out.println(sql);
+        List<BookInfo> allbooks = null;
+        allbooks = qr.query(sql, new BeanListHandler<BookInfo>(BookInfo.class));
+        return allbooks;
     }
 }

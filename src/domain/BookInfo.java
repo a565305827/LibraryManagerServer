@@ -7,12 +7,30 @@ public class BookInfo {
     private String bookid;
     private String bookname;
     private String price;
+    private String content;
+    private String imageurl;
     private String barcode;
     private String inTime;
     private String author;
     private String press;
     private String operator;
     private String bookcase;
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public String getImageurl() {
+        return imageurl;
+    }
+
+    public void setImageurl(String imageurl) {
+        this.imageurl = imageurl;
+    }
 
     public String getBookid() {
         return bookid;
@@ -99,12 +117,18 @@ public class BookInfo {
     @Override
     public String toString() {
         return "BookInfo{" +
-                "bookname='" + bookname + '\'' +
-                ", price=" + price +
-                ", inTime=" + inTime +
+                "bookid='" + bookid + '\'' +
+                ", bookname='" + bookname + '\'' +
+                ", price='" + price + '\'' +
+                ", content='" + content + '\'' +
+                ", imageurl='" + imageurl + '\'' +
+                ", barcode='" + barcode + '\'' +
+                ", inTime='" + inTime + '\'' +
                 ", author='" + author + '\'' +
                 ", press='" + press + '\'' +
                 ", operator='" + operator + '\'' +
+                ", bookcase='" + bookcase + '\'' +
+                ", booknum=" + booknum +
                 '}';
     }
 }

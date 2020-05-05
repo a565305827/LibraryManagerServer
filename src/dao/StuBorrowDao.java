@@ -15,7 +15,7 @@ public class StuBorrowDao {
 
     //获取某个学生借书的记录表
     public List<StuBorrow> getStuBorrowRecord(String stuid, String page, String pageSize) throws SQLException {
-        String sql = "SELECT * FROM stu_borrow WHERE stuid = ? limit ?,?;";
+        String sql = "SELECT * FROM stu_borrow WHERE stuid=? ORDER BY id DESC limit ?,?;";
         List<StuBorrow> allBorrow;
         allBorrow = qr.query(sql, new BeanListHandler<StuBorrow>(StuBorrow.class), stuid, (Integer.parseInt(page) - 1) * Integer.parseInt(pageSize), Integer.parseInt(pageSize));
         return allBorrow;

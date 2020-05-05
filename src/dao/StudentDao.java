@@ -28,7 +28,7 @@ public class StudentDao {
         //删除操作
         String sql = "delete FROM tb_student WHERE stuid = ?;";
         int update = qr.update(sql, stuid);
-        if (update == 1){
+        if (update == 1) {
             return true;
         }
         return false;
@@ -51,5 +51,14 @@ public class StudentDao {
         List<Student> allStudent = null;
         allStudent = qr.query(sql, new BeanListHandler<Student>(Student.class));
         return "" + allStudent.size();
+    }
+
+    public List<Student> lookStudent(String content) throws SQLException {
+        //删除操作
+        String sql = "select * from tb_student where name LIKE '%" + content + "%';";
+        System.out.println(sql);
+        List<Student> allStu = null;
+        allStu = qr.query(sql, new BeanListHandler<Student>(Student.class));
+        return allStu;
     }
 }

@@ -28,4 +28,8 @@ public class BookLibraryService {
     public String getAllBooksCount() throws SQLException{
         return mBookLibraryDao.getAllBooksCount();
     }
+
+    public List<BookInfo> lookBook(String content) throws SQLException {
+        return mBookLibraryDao.lookBook(content);
+    }
 }

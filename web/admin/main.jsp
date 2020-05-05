@@ -4,6 +4,7 @@
 <%
     String ctx = request.getContextPath();
     pageContext.setAttribute("ctx", ctx);
+    String code = (String) request.getParameter("code");
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -94,8 +95,23 @@
 
 </div>
 
+<div id="image_icon">
+
+    <table>
+        <TR>
+            <TD class=forumrowhighlight height="30">
+                <%--http://localhost:8080/UploadServlet?action=uploadImage--%>
+                <form action="${pageContext.request.contextPath}/UploadServlet" enctype="multipart/form-data" name="f2" method="post">
+
+                    <input type="submit" name="提交" class="am-btn am-btn-default">
+                </form>
+            </TD>
+        </TR>
+    </table>
+</div>
+
 <div id="modal_content">
-    <form action="http://localhost:8080/BooksLibrary"  name="f1">
+    <form action="${pageContext.request.contextPath}/UploadServlet" enctype="multipart/form-data" name="f1" method="post">
         <input name="type" type="hidden" value="2" size="40">
         <input name="action" type="hidden" value="addBook" >
         <TABLE class="stu_table" cellSpacing=1 cellPadding=3 width="100%" align=center bgColor=#6ab6b6>
@@ -106,45 +122,79 @@
             </tr>
             <TBODY>
             <TR>
-                <TD height="30" align="right" class="forumrow">书名: </TD>
-                <TD class=forumrowhighlight>
-                    <input name="bookname" type="text">
+                <TD class=forumrowhighlight><label>
+                    <span>书名: </span>
+                    <input name="bookname" type="text" class="am-form-field">
+                </label>
                 </TD>
             </TR>
             <TR>
-                <TD height="30" align="right" class=forumrow>价格: </TD>
                 <TD class=forumrowhighlight  height="30"><label>
-                    <input height="30" name="price" type="text"></input>
+                    <span>价格: </span>
+                    <input height="30" name="price" type="number" class="am-form-field"></input>
                 </label></TD>
             </TR>
             <TR>
-                <TD height="30" align="right" class=forumrow>作者:</TD>
                 <TD class=forumrowhighlight  height="30"><label>
-                    <input height="30" name="author" type="text"></input>
+                    <span>作者: </span>
+                    <input height="30" name="author" type="text" class="am-form-field"></input>
                 </label></TD>
             </TR>
             <TR>
-                <TD align="right" class=forumrow>出版社:</TD>
                 <TD class=forumrowhighlight  height="30"><label>
-                    <input height="30" name="press" type="text"></input>
+                    <span>出版社: </span>
+                    <input height="30" name="press" type="text" class="am-form-field"></input>
                 </label></TD>
             </TR>
             <TR>
-                <TD height="30" align="right" class=forumrow>操作者:</TD>
                 <TD class=forumrowhighlight height="30"><label>
-                    <input height="30" name="operator" type="text"></input>
+                    <span>操作者: </span>
+                    <input height="30" name="operator" type="text" class="am-form-field"></input>
                 </label></TD>
             </TR>
             <TR>
-                <TD height="30" align="right" class=forumrow>数量:</TD>
-                <TD class=forumrowhighlight height="30"><label>
-                    <input height="30" name="booknum" type="text"></input>
-                </label></TD>
+                <TD class=forumrowhighlight height="30">
+                    <label>
+                        <span>数量: </span>
+                        <input height="30" name="bookcase" type="number" class="am-form-field"></input>
+                    </label>
+                </TD>
             </TR>
             <TR>
-                <TD height="35" colspan="2" class=forumrow>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="Submit" value="提交信息" size="50">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" name="Submit" value="重新填写"></TD>
+                <TD class=forumrowhighlight height="30">
+                    <label>
+                        <span>书籍类型: </span>
+                        <input height="30" name="booknum" type="text" class="am-form-field"></input>
+                    </label>
+                </TD>
+            </TR>
+            <tr>
+                <td class=forumrowhighlight height="30">
+                    <label>
+                        <span>书籍介绍: </span>
+                        <%--<input height="100"  name="content" type="text" class="am-form-field">--%>
+                        <textarea cols="45" rows="10" name="content"></textarea>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td class=forumrowhighlight height="30">
+                    <label>
+                        <span>书籍封面: </span>
+                        <input height="30" name="imageurl" type="file">
+                    </label>
+                </td>
+            </tr>
+            <TR>
+                <TD style="padding-top: 15px" height="35" colspan="2" class=forumrow>
+                    <label>
+                    <input type="submit" name="Submit" value="提交信息" size="50" class="am-btn am-btn-default" onclick="addBook()">
+                    </label>
+                    &nbsp;&nbsp;
+                    <label>
+                    <input type="reset" name="Submit" value="重新填写" class="am-btn am-btn-default">
+                    </label>
+                </TD>
             </TR>
             </TBODY>
         </TABLE>
@@ -154,6 +204,7 @@
 <script src="${ctx }/admin/js/jquery.min.js"></script>
 <script type="text/javascript" src="${ctx }/admin/js/paging.js"></script>
 <script>
+
     var loc = location.href;//获取整个跳转地址内容，其实就是你传过来的整个地址字符串
     console.log(loc);
     var stuid = loc.substring(loc.indexOf("=") + 1);
@@ -175,7 +226,7 @@
                     '            <li>' + value.price + '</li>\n' +
                     '            <li>' + value.press + '</li>\n' +
                     '            <li>' + value.operator + '</li>\n' +
-                    '            <li><img class="img_icon" src="${ctx }/admin/images/edit_icon.png">\n' +
+                    '            <li><img class="img_icon" src="${ctx }/admin/images/edit_icon.png" onclick="editBook(' + value.bookid + ')">\n' +
                     '            </li>\n' +
                     '            <li id="' + value.bookid + '"' + '" class="borrowclass"><button onclick="borrow(' + value.bookid + ')">借阅</button> </li>\n' +
                     '            <li><a href="http://localhost:8080/BooksLibrary?action=delBook&type=2&barcode=' + value.barcode + '"' + '><img class="img_icon"\n' +
@@ -275,6 +326,18 @@
     $("#close").click(function () {
         $("#modal_view").fadeOut();
         $("#modal_content").fadeOut();
+    });
+
+
+    function editBook(bookid) {
+        $("#modal_view").fadeIn();
+        $("#image_icon").fadeIn();
+    }
+
+
+    $("#close_image").click(function () {
+        $("#modal_view").fadeOut();
+        $("#image_icon").fadeOut();
     });
 </script>
 

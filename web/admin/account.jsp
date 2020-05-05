@@ -99,7 +99,7 @@
 
         </div>
         <div class="item1" id="edit_add_btn">
-            <button id="add-manager" class="am-btn am-btn-default" type="button">添加</button>
+            <button id="add-manager" class="am-btn am-btn-default" type="button" >添加</button>
         </div>
 
     </div>

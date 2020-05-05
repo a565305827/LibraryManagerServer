@@ -13,10 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Servlet implementation class BaseServlet
@@ -27,20 +26,23 @@ public abstract class BaseServlet extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		//request.setCharacterEncoding("UTF-8");
-		response.setContentType("text/html;charset=UTF-8");
-		response.setCharacterEncoding("UTF-8");
-		// ½ÓÊÕ²ÎÊı
+//		request.setCharacterEncoding("UTF-8");
+//		response.setContentType("text/html;charset=UTF-8");
+//		response.setCharacterEncoding("UTF-8");
+		// æ¥æ”¶å‚æ•°
 		String action = request.getParameter("action");
+		if (action == null) {
+			action = (String) request.getAttribute("action");
+		}
 		try {
-			//»ñÈ¡µ±Ç°¶ÔÏóµÄ×Ö½Ú
+			//è·å–å½“å‰å¯¹è±¡çš„å­—èŠ‚
 			Class clazz = this.getClass();
 			Method method = clazz.getMethod(action, HttpServletRequest.class,HttpServletResponse.class);
-			//ÅĞ¶ÏÓĞÃ»ÓĞ´«ÈëµÄ·½·¨
+			//åˆ¤æ–­æœ‰æ²¡æœ‰ä¼ å…¥çš„æ–¹æ³•
 			if(method != null) {
-				//Èç¹ûÓĞ¾Íµ÷ÓÃ
+				//å¦‚æœæœ‰å°±è°ƒç”¨
 				String desPath =  (String)method.invoke(this, request,response);
-				//×ª·¢
+				//è½¬å‘
 				if(desPath != null) {
 					request.getRequestDispatcher(desPath).forward(request, response);
 				}
@@ -54,7 +56,7 @@ public abstract class BaseServlet extends HttpServlet {
 
 
 	protected void result(HttpServletRequest req, HttpServletResponse resp, BaseResponseEntity result) throws ServletException, IOException {
-		// ´¦Àí×ÓÀà
+		// å¤„ç†å­ç±»
 		BaseResponseEntity responseEntity = null;
 
 		try{
@@ -72,7 +74,7 @@ public abstract class BaseServlet extends HttpServlet {
 
 	/**
 	 * @author tianwyam
-	 * @description ´ÓPOSTÇëÇóÖĞ»ñÈ¡²ÎÊı
+	 * @description ä»POSTè¯·æ±‚ä¸­è·å–å‚æ•°
 	 * @param request
 	 * @return
 	 * @throws Exception
@@ -81,7 +83,7 @@ public abstract class BaseServlet extends HttpServlet {
 
 		Map<String, Object> params = new HashMap<>();
 
-		// »ñÈ¡ÄÚÈİ¸ñÊ½
+		// è·å–å†…å®¹æ ¼å¼
 		String contentType = request.getContentType();
 		if (contentType != null && !contentType.equals("")) {
 			contentType = contentType.split(";")[0];
@@ -96,9 +98,9 @@ public abstract class BaseServlet extends HttpServlet {
 			}
 		}
 
-		// form±íµ¥¸ñÊ½  ±íµ¥ĞÎÊ½¿ÉÒÔ´Ó ParameterMapÖĞ»ñÈ¡
+		// formè¡¨å•æ ¼å¼  è¡¨å•å½¢å¼å¯ä»¥ä» ParameterMapä¸­è·å–
 		if ("appliction/x-www-form-urlencoded".equalsIgnoreCase(contentType)) {
-			// »ñÈ¡²ÎÊı
+			// è·å–å‚æ•°
 			Map<String, String[]> parameterMap = request.getParameterMap();
 			if (parameterMap != null) {
 				for (Map.Entry<String, String[]> entry : parameterMap.entrySet()) {
@@ -107,10 +109,10 @@ public abstract class BaseServlet extends HttpServlet {
 			}
 		}
 
-		// json¸ñÊ½ json¸ñÊ½ĞèÒª´ÓrequestµÄÊäÈëÁ÷ÖĞ½âÎö»ñÈ¡
-		//jsonMap:{stuid=13, expectreturndate=2020-02-03, operator=åˆ˜ä¸€å³?, bookid=4}
+		// jsonæ ¼å¼ jsonæ ¼å¼éœ€è¦ä»requestçš„è¾“å…¥æµä¸­è§£æè·å–
+		//jsonMap:{stuid=13, expectreturndate=2020-02-03, operator=é’æ¨¹ç«´å®„?, bookid=4}
 		if ("multipart/form-data".equalsIgnoreCase(contentType)) {
-			// Ê¹ÓÃ commons-ioÖĞ IOUtils Àà¿ìËÙ»ñÈ¡ÊäÈëÁ÷ÄÚÈİ
+			// ä½¿ç”¨ commons-ioä¸­ IOUtils ç±»å¿«é€Ÿè·å–è¾“å…¥æµå†…å®¹
 			DiskFileItemFactory factory = new DiskFileItemFactory();
 			ServletFileUpload upload = new ServletFileUpload(factory);
 			upload.setHeaderEncoding("UTF-8");
@@ -118,10 +120,53 @@ public abstract class BaseServlet extends HttpServlet {
 			for(Object object:items){
 				FileItem fileItem = (FileItem) object;
 				if (fileItem.isFormField()) {
-					params.put(fileItem.getFieldName(), fileItem.getString("utf-8"));//Èç¹ûÄãÒ³Ãæ±àÂëÊÇutf-8µÄ
+					params.put(fileItem.getFieldName(), fileItem.getString("utf-8"));//å¦‚æœä½ é¡µé¢ç¼–ç æ˜¯utf-8çš„
 				}
 			}
 		}
 		return params ;
+	}
+
+	//è§£å†³è¯·æ±‚å‚æ•°ä¹±ç çš„é—®é¢˜
+	public static Map<String, String> getRequestParamsMap(HttpServletRequest request) {
+		Map<String, String> params = new HashMap<String, String>();
+		Map requestParams = request.getParameterMap();
+		for (Iterator<String> iter = requestParams.keySet().iterator(); iter.hasNext(); ) {
+			String name = (String) iter.next();
+			String[] values = (String[]) requestParams.get(name);
+			String valueStr = "";
+			for (int i = 0; i < values.length; i++) {
+				valueStr = (i == values.length - 1) ? valueStr + values[i] : valueStr + values[i] + ",";
+			}
+			try {
+				//å°†è·å–åˆ°çš„valueå€¼å­—ç¬¦ç¼–ç è¿›è¡Œè½¬æ¢
+				valueStr = new String(valueStr.getBytes("iso8859-1"), request.getCharacterEncoding());
+
+			} catch (Exception e) {
+				System.out.println("å­—ç¬¦è½¬åŒ–å¤±è´¥!");
+			}
+			// ä¹±ç è§£å†³ï¼Œè¿™æ®µä»£ç åœ¨å‡ºç°ä¹±ç æ—¶ä½¿ç”¨ã€‚
+			params.put(name, valueStr);
+		}
+		return params;
+	}
+
+	//è§£å†³è¯·æ±‚å‚æ•°ä¹±ç çš„é—®é¢˜
+	public static Map<String, String> getRequestAttributeMap(HttpServletRequest request) {
+		Map<String, String> params = new HashMap<String, String>();
+
+		Enumeration<String> attributeNames = request.getAttributeNames();
+		try {
+		while (attributeNames.hasMoreElements()) {
+			String element = attributeNames.nextElement();
+			String valueStr = (String) request.getAttribute(element);
+
+			params.put(element, new String(valueStr.getBytes("iso8859-1"), request.getCharacterEncoding()));
+
+		   }
+		} catch (UnsupportedEncodingException e) {
+			System.out.println("å­—ç¬¦è½¬åŒ–å¤±è´¥!");
+		}
+		return params;
 	}
 }

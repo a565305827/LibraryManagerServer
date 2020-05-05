@@ -25,4 +25,8 @@ public class StudentService {
     public String getStudentCount() throws SQLException {
         return studentDao.getAllStudentCount();
     }
+
+    public List<Student> lookStudent(String content) throws SQLException {
+        return studentDao.lookStudent(content);
+    }
 }

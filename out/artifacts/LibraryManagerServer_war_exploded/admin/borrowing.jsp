@@ -79,55 +79,60 @@
 <div id="modal_content">
 
     <form action="http://localhost:8080/StudentServlet"  name="f1">
-        <TABLE class="stu_table" cellSpacing=1 cellPadding=3 width="100%" align=center bgColor=#6ab6b6
-               border=0>
+        <input name="type" type="hidden" value="2" size="40">
+        <input name="utype" type="hidden" value="3" size="40">
+        <input name="action" type="hidden" value="addStudent" size="40">
+        <TABLE class="stu_table" cellSpacing=1 cellPadding=3 width="100%" align=center bgColor=#6ab6b6>
             <TBODY>
             <tr>
-                <TD width="25%" height="30" align="center" class=forumrow>添加学生:</TD>
-                <TD class=forumrowhighlight width="60%"
+                <TD height="30" align="center" class=forumrow>添加学生:</TD>
+                <TD class=forumrowhighlight
                     height="30">
                     <div id="close"><img src="images/delete_icon.png" alt=""></div></TD>
             </tr>
 
             <TR>
-                <TD width="20%" height="30" align="right" class=forumrow>姓名: </TD>
-                <TD class=forumrowhighlight width="80%"
+                <TD class=forumrowhighlight
                     height="30"><label>
-                    <input name="name" type="text" size="40">
-                    <input name="type" type="hidden" value="2" size="40">
-                    <input name="utype" type="hidden" value="3" size="40">
-                    <input name="action" type="hidden" value="addStudent" size="40">
+                    <span>姓名: </span>
+                    <input name="name" type="text" size="40" class="am-form-field">
                 </label></TD>
             </TR>
             <TR>
-                <TD width="20%" height="30" align="right" class=forumrow>手机号: </TD>
-                <TD class=forumrowhighlight width="80%" height="30"><label>
-                    <input name="name" type="text" size="40"></input>
+                <TD class=forumrowhighlight height="30"><label>
+                    <span>手机号: </span>
+                    <input name="name" type="text" size="40" class="am-form-field"/>
                 </label></TD>
             </TR>
             <TR>
-                <TD height="30" align="right" class=forumrow>密码:</TD>
-                <TD class=forumrowhighlight width="80%" height="30"><label>
-                    <input name="pwd" type="text" size="50"></input>
+                <TD class=forumrowhighlight height="30"><label>
+                    <span>密码: </span>
+                    <input name="pwd" type="text" size="50" class="am-form-field"/>
                 </label></TD>
             </TR>
             <TR>
-                <TD height="30" align="right" class=forumrow>邮箱:</TD>
-                <TD class=forumrowhighlight width="80%" height="30"><label>
-                    <input name="email" type="text" size="50"></input>
+                <TD class=forumrowhighlight  height="30"><label>
+                    <span>邮箱: </span>
+                    <input name="email" type="text" size="50" class="am-form-field"/>
                 </label></TD>
             </TR>
             <TR>
-                <TD height="30" align="right" class=forumrow>操作者:</TD>
-                <TD class=forumrowhighlight width="80%" height="30"><label>
-                    <input name="operator" type="text" size="50"></input>
+                <TD class=forumrowhighlight height="30"><label>
+                    <span>操作者: </span>
+                    <input name="operator" type="text" size="50" class="am-form-field"/>
                 </label></TD>
             </TR>
             <TR>
                 <TD height="35" colspan="2" class=forumrow>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="Submit" value="提交信息" size="50">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" name="Submit" value="重新填写"></TD>
-            </TR>
+                    <label>
+                        <input type="submit" name="Submit" value="提交信息" class="am-btn am-btn-default"/>
+                    </label>
+                    &nbsp;&nbsp;
+                    <label>
+                        <input type="reset" name="Reset" value="重新填写" class="am-btn am-btn-default"/>
+                    </label>
+                </TD>
+                 </TR>
             </TBODY>
         </TABLE>
     </form>

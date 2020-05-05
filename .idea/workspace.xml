@@ -6,7 +6,55 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="894b6545-c579-4fe5-863d-91575951a9c3" name="Default Changelist" comment="" />
+    <list default="true" id="894b6545-c579-4fe5-863d-91575951a9c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/StrUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/UploadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/dao/BookLibraryDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/dao/BookLibraryDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/dao/LoginDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/dao/LoginDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/dao/StuBorrowDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/dao/StuBorrowDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/dao/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/domain/BookInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/domain/BookInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/service/BookLibraryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/service/BookLibraryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/util/SetChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/util/SetChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/web/BaseServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/web/BooksServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/web/BooksServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/web/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/WEB-INF/classes/web/StudentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/admin/account.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/admin/account.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/admin/borrowing.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/admin/borrowing.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/admin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/admin/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryManagerServer_war_exploded/admin/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/BookLibraryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/BookLibraryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/LoginDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/StuBorrowDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/StuBorrowDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/BookInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/BookInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/BookLibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/BookLibraryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/SetChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/SetChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/BaseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/BooksServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/BooksServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/StudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/dao/BookLibraryDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/BookLibraryDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/dao/LoginDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/LoginDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/dao/StuBorrowDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/StuBorrowDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/domain/BookInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/domain/BookInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/service/BookLibraryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/service/BookLibraryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/util/SetChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/util/SetChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/web/BaseServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/web/BooksServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/web/BooksServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/web/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/web/StudentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/account.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/account.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/borrowing.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/borrowing.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/main.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,41 +77,96 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/UploadServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="87" column="17" lean-forward="true" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/BooksServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="166" column="68" selection-start-line="166" selection-start-column="68" selection-end-line="166" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dao/BookLibraryDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/BookInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/constant/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>borrow</find>
-      <find>returnbook</find>
-      <find>a</find>
-      <find>hello</find>
-      <find>allBooks</find>
-      <find>allManagers</find>
-      <find>close</find>
-      <find>edit_content</find>
-      <find>mode</find>
-      <find>mod</find>
-      <find>form</find>
-      <find>display</find>
       <find>submit</find>
       <find>welcome</find>
       <find>admin-submit_login</find>
-      <find>add</find>
       <find>bookN</find>
-      <find>modal_content</find>
       <find>list_books_ul</find>
-      <find>input</find>
       <find>no_</find>
-      <find>modal_view</find>
       <find>utype</find>
       <find>mainFrame</find>
       <find>i</find>
@@ -72,6 +175,22 @@
       <find>bookname</find>
       <find>page_div</find>
       <find>hasShowSize</find>
+      <find>input_search_btn</find>
+      <find>am-input-group</find>
+      <find>am-input-group-sm</find>
+      <find>item1</find>
+      <find>edit_content</find>
+      <find>Submit</find>
+      <find>input</find>
+      <find>modal_content</find>
+      <find>manager</find>
+      <find>add-manager</find>
+      <find>modal_view</find>
+      <find>filename</find>
+      <find>pic</find>
+      <find>stu_table</find>
+      <find>add</find>
+      <find>edit</find>
     </findStrings>
     <replaceStrings>
       <replace>tb_student</replace>
@@ -79,18 +198,13 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/service/StudentService.java" />
-        <option value="$PROJECT_DIR$/src/service/BorrowBookService.java" />
-        <option value="$PROJECT_DIR$/src/service/ReturnTableService.java" />
-        <option value="$PROJECT_DIR$/src/domain/StuBorrow.java" />
-        <option value="$PROJECT_DIR$/src/domain/StuBorrowReturn.java" />
         <option value="$PROJECT_DIR$/src/service/StuBorrowService.java" />
         <option value="$PROJECT_DIR$/src/dao/StuBorrowReturnDao.java" />
-        <option value="$PROJECT_DIR$/src/dao/StuBorrowDao.java" />
         <option value="$PROJECT_DIR$/web/admin/css/amazeui.min.css" />
         <option value="$PROJECT_DIR$/src/web/TicketServlet.java" />
         <option value="$PROJECT_DIR$/src/service/TicketService.java" />
@@ -103,7 +217,6 @@
         <option value="$PROJECT_DIR$/src/web/ReturnTableServlet.java" />
         <option value="$PROJECT_DIR$/src/util/JdbcUtil.java" />
         <option value="$PROJECT_DIR$/src/db.properties" />
-        <option value="$PROJECT_DIR$/src/web/BaseServlet.java" />
         <option value="$PROJECT_DIR$/web/admin/borrowedlist.jsp" />
         <option value="$PROJECT_DIR$/src/domain/EditPwd.java" />
         <option value="$PROJECT_DIR$/src/constant/Constant.java" />
@@ -112,28 +225,35 @@
         <option value="$PROJECT_DIR$/src/domain/Manager.java" />
         <option value="$PROJECT_DIR$/src/web/AdminManagerServlet.java" />
         <option value="$PROJECT_DIR$/src/dao/AdminManagerDao.java" />
-        <option value="$PROJECT_DIR$/src/service/BookLibraryService.java" />
         <option value="$PROJECT_DIR$/src/web/BorrowServlet.java" />
-        <option value="$PROJECT_DIR$/web/admin/account.jsp" />
-        <option value="$PROJECT_DIR$/src/web/StudentServlet.java" />
         <option value="$PROJECT_DIR$/src/domain/Student.java" />
-        <option value="$PROJECT_DIR$/src/dao/StudentDao.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/dao/BookLibraryDao.java" />
-        <option value="$PROJECT_DIR$/web/admin/borrowing.jsp" />
-        <option value="$PROJECT_DIR$/src/util/SetChar.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/web/StuBorrowServlet.java" />
-        <option value="$PROJECT_DIR$/src/dao/LoginDao.java" />
         <option value="$PROJECT_DIR$/src/web/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/dao/BorrowBookDao.java" />
         <option value="$PROJECT_DIR$/src/service/LoginService.java" />
-        <option value="$PROJECT_DIR$/src/domain/BookInfo.java" />
-        <option value="$PROJECT_DIR$/src/web/BooksServlet.java" />
-        <option value="$PROJECT_DIR$/web/admin/main.jsp" />
         <option value="$PROJECT_DIR$/web/admin/css/pageStyle.css" />
         <option value="$PROJECT_DIR$/web/admin/js/paging.js" />
+        <option value="$PROJECT_DIR$/src/dao/StuBorrowDao.java" />
+        <option value="$PROJECT_DIR$/src/dao/LoginDao.java" />
+        <option value="$PROJECT_DIR$/src/service/BookLibraryService.java" />
+        <option value="$PROJECT_DIR$/src/util/SetChar.java" />
+        <option value="$PROJECT_DIR$/src/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/src/web/StudentServlet.java" />
+        <option value="$PROJECT_DIR$/src/util/Info.java" />
+        <option value="$PROJECT_DIR$/web/admin/account.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/admin/js/test.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/borrowing.jsp" />
         <option value="$PROJECT_DIR$/web/admin/css/style.css" />
+        <option value="$PROJECT_DIR$/web/admin/test.jsp" />
+        <option value="$PROJECT_DIR$/src/web/BooksServlet.java" />
+        <option value="$PROJECT_DIR$/src/web/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/web/admin/main.jsp" />
+        <option value="$PROJECT_DIR$/src/domain/BookInfo.java" />
+        <option value="$PROJECT_DIR$/src/web/UploadServlet.java" />
+        <option value="$PROJECT_DIR$/src/dao/BookLibraryDao.java" />
       </list>
     </option>
   </component>
@@ -146,8 +266,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenProjectNavigator">
@@ -162,6 +282,27 @@
     <option name="width" value="1340" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssInvalidPropertyValue</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -183,13 +324,7 @@
               <item name="LibraryManagerServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LibraryManagerServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibraryManagerServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LibraryManagerServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LibraryManagerServer" type="b2602c69:ProjectViewProjectNode" />
@@ -220,14 +355,7 @@
               <item name="LibraryManagerServer" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="Hui-iconfont" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibraryManagerServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LibraryManagerServer" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LibraryManagerServer" type="b2602c69:ProjectViewProjectNode" />
@@ -243,19 +371,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="top&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/top.jsp&#10;ac&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/account.jsp&#10;sty&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/css/style.css&#10;accoun&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/account.jsp&#10;mai&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/main.jsp&#10;main&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/main.jsp&#10;bo&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/borrowing.jsp&#10;borrow&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/borrowing.jsp&#10;left&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/left.jsp&#10;Stu&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/src/domain/Student.java&#10;borr&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/borrowing.jsp&#10;account&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/account.jsp&#10;Ma&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/src/domain/Manager.java&#10;Mana&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/src/domain/Manager.java&#10;AdminMa&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/src/web/AdminManagerServlet.java&#10;ad&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/admin_login.jsp&#10;a&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/account.jsp" />
+    <property name="SearchEverywhereHistoryKey" value="BookIn&#9;FILE&#9;file://D:/dev/IdeaProjects/LibraryManagerServer/src/domain/BookInfo.java&#10;BookD&#9;FILE&#9;file://D:/dev/IdeaProjects/LibraryManagerServer/src/dao/BookLibraryDao.java&#10;top&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/top.jsp&#10;ac&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/account.jsp&#10;sty&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/css/style.css&#10;accoun&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/account.jsp&#10;mai&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/main.jsp&#10;main&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/main.jsp&#10;bo&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/borrowing.jsp&#10;borrow&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/borrowing.jsp&#10;left&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/left.jsp&#10;Stu&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/src/domain/Student.java&#10;borr&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/borrowing.jsp&#10;account&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/account.jsp&#10;Ma&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/src/domain/Manager.java&#10;Mana&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/src/domain/Manager.java&#10;AdminMa&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/src/web/AdminManagerServlet.java&#10;ad&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/admin_login.jsp&#10;a&#9;FILE&#9;file://D:/IdeaProjects/LibraryManagerServer/web/admin/account.jsp" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/uploadTemp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\IdeaProjects\LibraryManagerServer\web\admin" />
       <recent name="D:\IdeaProjects\LibraryManagerServer\web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -266,11 +395,11 @@
       <recent name="utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\IdeaProjects\LibraryManagerServer\src\util" />
       <recent name="D:\IdeaProjects\LibraryManagerServer\src\util" />
       <recent name="D:\IdeaProjects\LibraryManagerServer\web\WEB-INF\lib" />
       <recent name="D:\IdeaProjects\LibraryManagerServer\web\admin" />
       <recent name="D:\IdeaProjects\LibraryManagerServer\web" />
-      <recent name="D:\IdeaProjects\LibraryManagerServer\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,7 +421,6 @@
     </configuration>
     <configuration name="Tomcat 7.0.99" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.99" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -301,6 +429,11 @@
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
+        <file path="D:/uploadTemp">
+          <settings>
+            <option name="CONTEXT_PATH" value="/image" />
+          </settings>
+        </file>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_99_LibraryManagerServer" />
@@ -345,7 +478,7 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
+        <option name="USE_ENV_VARIABLES" value="false" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
           <option name="SCRIPT" value="" />
@@ -383,6 +516,39 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59685" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -439,12 +605,20 @@
       <workItem from="1586078567687" duration="2007000" />
       <workItem from="1586591665762" duration="14349000" />
       <workItem from="1586869212964" duration="46036000" />
-      <workItem from="1588476225157" duration="8942000" />
+      <workItem from="1588476225157" duration="64829000" />
     </task>
+    <task id="LOCAL-00001" summary="the first commit">
+      <created>1588490704760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588490704760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256867000" />
+    <option name="totallyTimeSpent" value="312754000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,10 +631,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5758123" visible="true" weight="0.20726173" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="2" sideWeight="0.42418772" side_tool="true" weight="0.2546875" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53333336" visible="true" weight="0.14901665" />
+      <window_info id="Structure" order="1" sideWeight="0.46666667" side_tool="true" weight="0.19667171" />
+      <window_info id="Web" order="2" sideWeight="0.46666667" side_tool="true" weight="0.14901665" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -469,47 +644,47 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.3295082" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32820514" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32764506" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.852459" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32935154" />
-      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5435898" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.60683763" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.8136752" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32820514" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3294509" />
-      <window_info anchor="bottom" id="Run" order="13" sideWeight="0.49924356" weight="0.20307167" />
+      <window_info anchor="bottom" id="Run" order="13" sideWeight="0.49848714" weight="0.63931626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5758123" visible="true" weight="0.20953101" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="2" sideWeight="0.42418772" side_tool="true" weight="0.2546875" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53333336" visible="true" weight="0.14901665" />
+      <window_info id="Structure" order="1" sideWeight="0.46666667" side_tool="true" weight="0.19667171" />
+      <window_info id="Web" order="2" sideWeight="0.46666667" side_tool="true" weight="0.14901665" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39933443" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.3295082" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32820514" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32786885" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.852459" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.2672131" />
-      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5435898" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.60683763" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.08717949" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32820514" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3294509" />
-      <window_info anchor="bottom" id="Run" order="13" sideWeight="0.49924356" weight="0.37704918" />
+      <window_info active="true" anchor="bottom" id="Run" order="13" sideWeight="0.49848714" visible="true" weight="0.12307692" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
@@ -522,59 +697,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="the first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="the first commit" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk1.8.0_231/jre/lib/rt.jar!/sun/misc/IOUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/ReturnTableServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/TicketDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/JdbcUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/StuBorrowReturnDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/response/entity/ResponseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -620,20 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/AdminManagerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="143" column="24" lean-forward="true" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/BookLibraryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/TomeCat/apache-tomcat-7.0.99/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -641,29 +754,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/borrowedlist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/images/form-bg.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="193" selection-start-line="18" selection-start-column="193" selection-end-line="18" selection-end-column="193" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/images/admin_hover.png">
       <provider selected="true" editor-type-id="images" />
@@ -671,52 +763,10 @@
     <entry file="file://$PROJECT_DIR$/web/admin/images/go-hover.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/BaseServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/BookLibraryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/borrowing.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="76" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/StudentServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/StuBorrowServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/StuBorrowDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -737,27 +787,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/SetChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/StuBorrowService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/account.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -775,55 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/LoginDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constant/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/BorrowBookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -851,34 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/BooksServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="107" column="57" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/BookInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/css/pageStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -893,10 +849,255 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/StuBorrowDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="17" column="59" lean-forward="true" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/BorrowBookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/LoginDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/SetChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/AdminManagerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/borrowedlist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="82" column="18" lean-forward="true" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/StudentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="method#getListStudent#0;class#StudentServlet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="51" column="46" lean-forward="true" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/StrUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/account.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="100" column="30" lean-forward="true" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="30" />
+          <folding>
+            <element signature="e#3010#3016#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_231/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="2931" column="19" lean-forward="true" selection-start-line="2931" selection-start-column="19" selection-end-line="2931" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/TicketServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="486" column="23" lean-forward="true" selection-start-line="486" selection-start-column="23" selection-end-line="486" selection-end-column="23" />
+        <state relative-caret-position="168">
+          <caret line="496" column="35" selection-start-line="496" selection-start-column="31" selection-end-line="496" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/BookLibraryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding>
+            <element signature="e#4829#4845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/borrowing.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+          <folding>
+            <element signature="e#4517#4523#0#HTML" expanded="true" />
+            <element signature="e#4523#4529#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="166" column="68" selection-start-line="166" selection-start-column="68" selection-end-line="166" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/BookInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/BooksServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="87" column="17" lean-forward="true" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/BookLibraryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
         </state>
       </provider>
     </entry>
